@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f8f5ed;
+  
+ 
+}
+
+/******************************************/
+h1 {
+  text-align: left;
+  padding: 6px 0 0.1px 40px;
+  font-size: 33px;
+  background: linear-gradient(-180deg, #37aee2 0%, #094660 100%);
+  color: #dfdfdf; 
+
+  border: solid #000000;
+
+  border-width: 2.5px;
+  border-left: none;
+  border-right: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cards{
+   
+   width: 100%; 
+   justify-content: space-between; 
+
+}
+
+/* .cards:hover{
+    box-shadow: 2px 2px 10px black;
+} */
+
+
+.city-name{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 3px;
+    border:solid #000000;
+    margin-top: -4px ;
+    border-left: none;
+    border-right: none;
+
+}
+
+.forecast{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.image img{
+    
+    width: 100%;
+    height: 500px;
+    border-radius: 3px;
+   
+
+}
+.cards h2{
+    text-align: center;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+}
+
+
+.seperator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background: #5e6c71;
+    margin: 6px 0;
+    font-size: 10px;
+
+}
+
+
+.london-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+    
+} 
+ .cards .london-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.berlin-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .cards .berlin-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.amsterdam-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .cards .amsterdam-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.tokyo-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .tokyo-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.rome-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .rome-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.kuwait-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .kuwait-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.mecca-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .mecca-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+.cairo-card{
+    background: linear-gradient(-180deg, #07890f 70%, #1986b5 100%);
+    width: 25%;
+    margin: 10px 0px 0px 0px;
+    border: solid #000000;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 20px;
+    
+} 
+ .cairo-card:hover{
+    box-shadow: 2px 2px 10px black;
+} 
+
+
